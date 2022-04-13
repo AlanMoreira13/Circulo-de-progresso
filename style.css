@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: blueviolet;
+}
+
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.box-circle svg {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+circle {
+  width: 50px;
+  height: 150px;
+  fill: none;
+  stroke: black;
+  stroke-width: 10;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: grey;
+}
+circle:nth-child(2) {
+  stroke: #00b92b;
+  transition: all 1.1s linear;
+}
+
+.number {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.whrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.whrapper input {
+  width: 200px;
+}
