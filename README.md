@@ -1,7 +1,7 @@
 # Circulo-de-progresso
 
 Um exercício simples com a finalidade de praticar Javascript Vanilla!<br>
-✔ HTML<br>
+✔ HTML <br>
 ✔ CSS<br>
 ✔ Javascript<br>
 ##
